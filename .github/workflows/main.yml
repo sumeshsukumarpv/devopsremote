@@ -1,0 +1,9 @@
+name: Github action demo
+run-name: Testing our Gitbub actions
+
+on: [push]
+jobs:
+  basic_workflow:
+    runs-on: ubuntu-latest
+    steps:
+      run: echo "job basic_workflow is executing as part of new workflow"
