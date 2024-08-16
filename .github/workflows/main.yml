@@ -6,4 +6,4 @@ jobs:
   basic_workflow:
     runs-on: ubuntu-latest
     steps:
-      run: echo "job basic_workflow is executing as part of new workflow"
+      - run: echo "job basic_workflow is executing as part of new workflow"
